@@ -136,7 +136,7 @@ function user_news() {
   foreach ($news as $entry)
     $html .= display_news($entry);
 
-  $dis_rows = ceil(sql_num_query("SELECT * FROM `News`") / $DISPLAY_NEWS);
+  $dis_rows = ceil(sql_num_query("SELECT * FROM `News` WHERE `Treffen` = 0") / $DISPLAY_NEWS);
   $html .= '<div class="text-center">' . '<ul class="pagination">';
   for ($i = 0; $i < $dis_rows; $i ++) {
     if (isset($_REQUEST['page']) && $i == $_REQUEST['page'])
