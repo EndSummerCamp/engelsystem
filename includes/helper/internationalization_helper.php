@@ -1,10 +1,11 @@
 <?php
 $locales = array(
+    'it_IT.UTF-8' => "Italiano",
     'de_DE.UTF-8' => "Deutsch",
-    'en_US.UTF-8' => "English" 
+    'en_US.UTF-8' => "English"
 );
 
-$default_locale = 'en_US.UTF-8';
+$default_locale = 'it_IT.UTF-8';
 
 /**
  * Return currently active locale
