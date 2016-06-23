@@ -1,0 +1,2291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Engelsystem 2.0\n"
+"POT-Creation-Date: 2016-03-22 14:48+0100\n"
+"PO-Revision-Date: 2016-06-23 19:18+0200\n"
+"Last-Translator: Manuel Dalla Lana <endelwar@aregar.it>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Users/manuel/projects/EndSummerCamp/engelsystem\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/sys_menu.php:49
+msgid "Please enter your planned date of departure on your settings page to give us a feeling for teardown capacities."
+msgstr "Si prega di inserire la data di partenza prevista nella pagina delle impostazioni di darci una indicazione per le capacità di smontaggio."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/sys_menu.php:56
+#, php-format
+msgid "You freeloaded at least %s shifts. Shift signup is locked. Please go to heavens desk to be unlocked again."
+msgstr "È freeloaded almeno %s turni. Spostamento di iscrizione è bloccato. Si prega di andare a cielo scrivania per essere di nuovo sbloccato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/sys_menu.php:63
+msgid "You are not marked as arrived. Please go to heaven's desk, get your angel badge and/or tell them that you arrived already."
+msgstr "Non sei segnato come arrivato. Vai al banco di Login, chiedi il tuo Angel Badge e / o avvisali che sei già arrivato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/sys_menu.php:69
+msgid "You need to specify a tshirt size in your settings!"
+msgstr "È necessario specificare una taglia della tshirt nelle impostazioni!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/sys_menu.php:75
+msgid "You need to specify a DECT phone number in your settings! If you don't have a DECT phone, just enter \"-\"."
+msgstr "È necessario specificare un numero di telefono DECT nelle impostazioni! Se non si dispone di un telefono DECT, basta inserire \\ \"- \"."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/sys_menu.php:136
+msgid "Admin"
+msgstr "Admin"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/sys_template.php:363
+msgid "No data found."
+msgstr "Nessun dato trovato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:7
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:821 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:56
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:73 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:214
+msgid "Angeltypes"
+msgstr "Angeltypes"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:55
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:327 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:213
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:257
+msgid "Teams/Job description"
+msgstr "Squadre / Descrizione del lavoro"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:81
+#, php-format
+msgid "Angeltype %s deleted."
+msgstr "Angeltype %s cancellato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:86
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:44
+#, php-format
+msgid "Delete angeltype %s"
+msgstr "Eliminare angeltype %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:132
+msgid "Please check the name. Maybe it already exists."
+msgstr "Verifica il nome. Forse esiste già."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:163
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:54
+#, php-format
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:199
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:200
+#, php-format
+msgid "Team %s"
+msgstr "Squadra %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:219
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:171
+msgid "view"
+msgstr "Vista"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:223
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:64 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_groups.php:23
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:18 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:91
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:77 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:52
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:63 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:174
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:225
+msgid "edit"
+msgstr "modifica"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:224
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:37 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:56
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:19 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_user.php:117
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:220 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:48
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:93 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:5
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:12 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:78
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:15 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:53
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:64
+msgid "delete"
+msgstr "cancella"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:229
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:87 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:244
+msgid "leave"
+msgstr "lascia"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/angeltypes_controller.php:231
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:80 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:246
+msgid "join"
+msgstr "unire."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/shifts_controller.php:28
+msgid "Shift could not be found."
+msgstr "Il Turno non è stato trovato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/shifttypes_controller.php:25
+#, php-format
+msgid "Shifttype %s deleted."
+msgstr "Shifttype %s cancellato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/shifttypes_controller.php:30
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:11
+#, php-format
+msgid "Delete shifttype %s"
+msgstr "Eliminare shifttype %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/shifttypes_controller.php:53
+msgid "Shifttype not found."
+msgstr "Shifttype non trovato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/shifttypes_controller.php:69
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:66
+msgid "Please enter a name."
+msgstr "Per favore inserisci un nome."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/shifttypes_controller.php:86
+msgid "Updated shifttype."
+msgstr "shifttype aggiornato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/shifttypes_controller.php:92
+msgid "Created shifttype."
+msgstr "shifttype creato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/shifttypes_controller.php:144
+msgid "Shifttypes"
+msgstr "Shifttypes"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:19
+#, php-format
+msgid "There is %d unconfirmed angeltype."
+msgid_plural "There are %d unconfirmed angeltypes."
+msgstr[0] "Ci sono %d angeltype non confermati."
+msgstr[1] "C'è %d angeltype non confermato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:19
+msgid "Angel types which need approvals:"
+msgstr "tipi di angelo che hanno bisogno di approvazione:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:29
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:37
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:69
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:77
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:133
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:189
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:259
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:296
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:304
+msgid "Angeltype doesn't exist."
+msgstr "Angeltype non esiste."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:42
+msgid "You are not allowed to delete all users for this angeltype."
+msgstr "Non è consentito di eliminare tutti gli utenti per questo angeltype."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:52
+#, php-format
+msgid "Denied all users for angeltype %s."
+msgstr "Negato a tutti gli utenti per angeltype %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:57
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:14
+msgid "Deny all users"
+msgstr "Nega tutti gli utenti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:85
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:117
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:125
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:173
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:181
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:236
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:251
+msgid "User angeltype doesn't exist."
+msgstr "angeltype utente non esiste."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:90
+msgid "You are not allowed to confirm all users for this angeltype."
+msgstr "Non è consentito confermare tutti gli utenti per questo angeltype."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:100
+#, php-format
+msgid "Confirmed all users for angeltype %s."
+msgstr "Confermato a tutti gli utenti per angeltype %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:105
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:25
+msgid "Confirm all users"
+msgstr "Confermare tutti gli utenti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:138
+msgid "You are not allowed to confirm this users angeltype."
+msgstr "Non è consentito di confermare questo utenti angeltype."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:146
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:197
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:267
+msgid "User doesn't exist."
+msgstr "L'utente non esiste."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:156
+#, php-format
+msgid "%s confirmed for angeltype %s."
+msgstr "%s confermato per angeltype %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:161
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:36
+msgid "Confirm angeltype for user"
+msgstr "Confermare angeltype per l'utente"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:202
+msgid "You are not allowed to delete this users angeltype."
+msgstr "Non sei autorizzato a eliminare questi utenti angeltype."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:211
+#, php-format
+msgid "User %s removed from %s."
+msgstr "Utente %s rimosso da %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:219
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:47
+msgid "Remove angeltype"
+msgstr "rimuovere angeltype"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:231
+msgid "You are not allowed to set coordinator rights."
+msgstr "Non è permesso impostare i diritti di coordinatore."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:243
+msgid "No coordinator update given."
+msgstr "Nessun aggiornamento coordinatore dato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:276
+#, php-format
+msgid "Added coordinator rights for %s to %s."
+msgstr "Diritti coordinatore aggiunto per %s a %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:276
+#, php-format
+msgid "Removed coordinator rights for %s from %s."
+msgstr "Diritti coordinatore rimossi per %s da %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:284
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:138
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:3
+msgid "Add coordinator rights"
+msgstr "Aggiungere diritti coordinatore"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:284
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:130
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:3
+msgid "Remove coordinator rights"
+msgstr "Rimuovere i diritti coordinatore"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:325
+msgid "Please select a user."
+msgstr "Si prega di selezionare un utente."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:336
+#, php-format
+msgid "User %s added to %s."
+msgstr "Utente %s aggiunto a %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:349
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:62
+msgid "Add user to angeltype"
+msgstr "Aggiungi utente a angeltype"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:358
+#, php-format
+msgid "You are already a %s."
+msgstr "Sei già un %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:367
+#, php-format
+msgid "You joined %s."
+msgstr "Ti sei unito a %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_angeltypes_controller.php:382
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:76
+#, php-format
+msgid "Become a %s"
+msgstr "Diventa un %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_driver_licenses_controller.php:24
+#, php-format
+msgid "You joined an angeltype which requires a driving license. Please edit your driving license information here: %s."
+msgstr "È iscritto a un angeltype che richiede una patente di guida. Si prega di modificare le informazioni sulla patente di guida qui: %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_driver_licenses_controller.php:24
+msgid "driving license information"
+msgstr "informazioni sulla patente di guida"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_driver_licenses_controller.php:112
+msgid "Please select at least one driving license."
+msgstr "Seleziona almeno una patente di guida."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_driver_licenses_controller.php:121
+msgid "Your driver license information has been removed."
+msgstr "I dati della tua patente di guida sono stati rimossi."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_driver_licenses_controller.php:133
+msgid "Your driver license information has been saved."
+msgstr "I dati della tua patente di guida sono stati salvati."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/user_driver_licenses_controller.php:141
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:15
+#, php-format
+msgid "Edit %s driving license information"
+msgstr "Modifica le informazioni sulla patente di guida di %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:46
+msgid "You cannot delete yourself."
+msgstr "Non puoi cancellare te stesso."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:55
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:272
+msgid "Your password is incorrect.  Please try it again."
+msgstr "La password non è corretta. Si prega di provare di nuovo."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:64
+msgid "User deleted."
+msgstr "Utente cancellato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:72 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:26
+#, php-format
+msgid "Delete %s"
+msgstr "Eliminare %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:111
+msgid "Please enter a valid number of vouchers."
+msgstr "Si prega di inserire un numero valido di voucher."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:121
+msgid "Saved the number of vouchers."
+msgstr "Salvato il numero di voucher."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:129 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:43
+#, php-format
+msgid "%s's vouchers"
+msgstr "Voucher di %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:142
+msgid "User not found."
+msgstr "Utente non trovato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:192 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:80
+msgid "All users"
+msgstr "Tutti gli utenti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:207
+msgid "Token is not correct."
+msgstr "Token non corretto."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:217
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:93 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:123
+msgid "Your passwords don't match."
+msgstr "Le password non corrispondono."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:221
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:121
+msgid "Your password is to short (please use at least 6 characters)."
+msgstr "La password è troppo breve (si prega di utilizzare almeno 6 caratteri)."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:227
+msgid "Password could not be updated."
+msgstr "La password non può essere aggiornata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:229
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:125
+msgid "Password saved."
+msgstr "Password salvata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:247
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:251
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:63 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:37
+msgid "E-mail address is not correct."
+msgstr "Indirizzo e-mail non è corretto."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:255
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:67 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:41
+msgid "Please enter your e-mail."
+msgstr "Inserisci il tuo indirizzo e-mail"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:262
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:279
+msgid "Password recovery"
+msgstr "Recupero Password"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:262
+#, php-format
+msgid "Please visit %s to recover your password."
+msgstr "Si prega di visitare %s per recuperare la password."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/controller/users_controller.php:266
+msgid "We sent an email containing your password recovery link."
+msgstr "Abbiamo inviato una e-mail contenente il tuo link di recupero della password."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/helper/email_helper.php:11
+#, php-format
+msgid "Hi %s,"
+msgstr "Ciao %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/helper/email_helper.php:11
+msgid "here is a message for you from the engelsystem:"
+msgstr "ecco un messaggio per voi da engelsystem:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/helper/email_helper.php:11
+msgid "This email is autogenerated and has not to be signed. You got this email because you are registered in the engelsystem."
+msgstr "Questa email è generata automaticamente e non è stato firmato. Hai ricevuto questa email perché sei registrato nel engelsystem."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:10
+msgid "A Shift you are registered on has changed:"
+msgstr "Un Turno a cui sei assegnato è cambiato:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:14
+#, php-format
+msgid "* Shift type changed from %s to %s"
+msgstr "* Tipo di turno cambiato da %s a %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:19
+#, php-format
+msgid "* Shift title changed from %s to %s"
+msgstr "* Titolo turno cambiato da %s a %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:24
+#, php-format
+msgid "* Shift Start changed from %s to %s"
+msgstr "* Inizio Turno cambiato da %s a %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:29
+#, php-format
+msgid "* Shift End changed from %s to %s"
+msgstr "* Fine Turno cambiato da %s a %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:34
+#, php-format
+msgid "* Shift Location changed from %s to %s"
+msgstr "* Località Turno cambiata da %s a %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:44
+msgid "The updated Shift:"
+msgstr "Il Turno aggiornato:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:53
+msgid "Your Shift has changed"
+msgstr "Il tuo turno è cambiato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:60
+msgid "A Shift you are registered on was deleted:"
+msgstr "Un Turno a cui sei assegnato è stato cancellato:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:69
+msgid "Your Shift was deleted"
+msgstr "Il tuo Turno è stato eliminato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:76
+msgid "You have been assigned to a Shift:"
+msgstr "Sei stato assegnato a un Turno:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:82
+msgid "Assigned to Shift"
+msgstr "Assegnato a Turno"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:90
+msgid "You have been removed from a Shift:"
+msgstr "Sei stato rimosso da un Turno:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/shifts_mailer.php:96
+msgid "Removed from Shift"
+msgstr "Rimosso dal Turno"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/users_mailer.php:7
+msgid "Your account has been deleted"
+msgstr "Il tuo account è stato eliminato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/mailer/users_mailer.php:7
+msgid "Your angelsystem account has been deleted. If you have any questions regarding your account deletion, please contact heaven."
+msgstr "Il tuo account angelsystem è stato eliminato. Se avete qualsiasi domanda riguardante la cancellazione del tuo account, si prega di contattare il banco Login."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:4
+msgid "Active angels"
+msgstr "Angeli attivi"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:28
+#, php-format
+msgid "At least %s angels are forced to be active. The number has to be greater."
+msgstr "Almeno %s angeli sono costretti ad essere attivi. Il numero deve essere maggiore."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:33
+msgid "Please enter a number of angels to be marked as active."
+msgstr "Si prega di inserire un numero di angeli per essere contrassegnato come attivo."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:57
+msgid "Marked angels."
+msgstr "Angeli segnati."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:59 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:129
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:164 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:251
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:29 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:46
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:65
+msgid "back"
+msgstr "indietro"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:59
+msgid "apply"
+msgstr "Applica"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:69
+msgid "Angel has been marked as active."
+msgstr "Angelo è stato contrassegnato come attivo."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:71 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:80
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:98 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:22
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:32
+msgid "Angel not found."
+msgstr "Angelo non trovato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:78
+msgid "Angel has been marked as not active."
+msgstr "Angelo è stato contrassegnato come non attivo."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:87
+msgid "Angel has got a t-shirt."
+msgstr "Angelo ha una t-shirt."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:96
+msgid "Angel has got no t-shirt."
+msgstr "Angelo non ha avuto alcuna t-shirt."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:135
+msgid "set active"
+msgstr "set attivo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:137
+msgid "remove active"
+msgstr "rimuovere attivo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:138
+msgid "got t-shirt"
+msgstr "t-shirt consegnata"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:141
+msgid "remove t-shirt"
+msgstr "rimuovere la t-shirt"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:159 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:156
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:171 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:186
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:172 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:179
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:70
+msgid "Sum"
+msgstr "Somma"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:166
+msgid "Search angel:"
+msgstr "Ricerca angelo:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:167
+msgid "Show all shifts"
+msgstr "Mostra tutti i turni"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:168 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:132
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:133 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:71
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:80 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_log.php:25
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_log.php:26
+msgid "Search"
+msgstr "Ricerca"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:171
+msgid "How much angels should be active?"
+msgstr "Quanto angeli dovrebbe essere attivi?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:172 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:239
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:322
+msgid "Preview"
+msgstr "Anteprima"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:176 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:136
+msgid "Nickname"
+msgstr "Nickname"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:177 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:187
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:96
+msgid "Size"
+msgstr "Taglia"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:178 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:4
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:236
+msgid "Shifts"
+msgstr "Turni"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:179 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:311
+msgid "Length"
+msgstr "Lunghezza:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:180
+msgid "Active?"
+msgstr "Attivo?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:181 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:94
+msgid "Forced"
+msgstr "Forzato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:182
+msgid "T-shirt?"
+msgstr "T-shirt?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:185
+msgid "Shirt statistics"
+msgstr "Statistiche t-shirt"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:188
+msgid "Needed shirts"
+msgstr "T-shirt necessarie"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_active.php:189
+msgid "Given shirts"
+msgstr "T-shirt consegnate"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:4
+msgid "Arrived angels"
+msgstr "Angeli arrivati"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:19
+msgid "Reset done. Angel has not arrived."
+msgstr "Reset fatto. Angelo non è arrivato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:29
+msgid "Angel has been marked as arrived."
+msgstr "Angelo è stato contrassegnato come arrivato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:65 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:8
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:19
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:30
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:41
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:52
+msgid "yes"
+msgstr "sì"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:66
+msgid "reset"
+msgstr "reset"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:66 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:147
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:162 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:177
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:227
+msgid "arrived"
+msgstr "arrivato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:137
+msgid "Planned arrival"
+msgstr "Arrivo previsto"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:138
+msgid "Arrived?"
+msgstr "Arrivato?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:139
+msgid "Arrival date"
+msgstr "Data d'arrivo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:140
+msgid "Planned departure"
+msgstr "Partenza prevista"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:145
+msgid "Planned arrival statistics"
+msgstr "Statistiche arrivi previsti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:148 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:163
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:178
+msgid "arrived sum"
+msgstr "totale arrivati"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:154 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:169
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:184 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:27
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:76
+msgid "Date"
+msgstr "Data"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:155 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:170
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:185
+msgid "Count"
+msgstr "Contatore"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:160
+msgid "Arrival statistics"
+msgstr "Statistiche sugli arrivi"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_arrive.php:175
+msgid "Planned departure statistics"
+msgstr "Statistiche partenze prevista"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:3
+msgid "Free angels"
+msgstr "Free angels"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:74 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:34
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:68
+msgid "Angeltype"
+msgstr "Angeltype"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:77
+msgid "Only confirmed"
+msgstr "Solo confermati"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:85 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:181
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:312 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:168
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:146 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:153
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:86
+msgid "Nick"
+msgstr "Nick"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:87 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:210
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:175 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:147
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:154 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:89
+msgid "DECT"
+msgstr "DECT"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:88 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:219
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:179
+msgid "Jabber"
+msgstr "Jabber"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_free.php:89 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:184
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:177 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:258
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_groups.php:3
+msgid "Grouprights"
+msgstr "Grouprights"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_groups.php:29 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:141
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:145 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:135
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:180 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:60
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:216 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:33
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:74 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:88
+msgid "Name"
+msgstr "Nome"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_groups.php:30
+msgid "Privileges"
+msgstr "Privilegi"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_groups.php:53 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:32
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:35 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:149
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:257 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:42
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:106 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:160
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:183 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:192
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:197 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:202
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:191 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:66
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:32 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:33
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:37 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:51
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:274 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:34
+msgid "Save"
+msgstr "Salva"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_groups.php:54
+msgid "Edit group"
+msgstr "Modifica gruppo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:4 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:136
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:181
+msgid "Frab import"
+msgstr "Importazione da Frab"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:24
+msgid "Webserver has no write-permission on import directory."
+msgstr "Webserver non ha permessi di scrittura sulla directory di importazione."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:50 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:114
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:191 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:48
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:53
+msgid "Please select a shift type."
+msgstr "Si prega di selezionare un tipo di turno."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:57 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:121
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:198
+msgid "Please enter an amount of minutes to add to a talk's begin."
+msgstr "Si prega di inserire una quantità di minuti da aggiungere ad inizio talk."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:64 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:128
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:205
+msgid "Please enter an amount of minutes to add to a talk's end."
+msgstr "Si prega di inserire una quantità di minuti da aggiungere a fine talk."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:72
+msgid "No valid xml/xcal file provided."
+msgstr "Non è stato fornito nessun file xml/xcal valido."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:77
+msgid "File upload went wrong."
+msgstr "Il caricamento del file è andato storto."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:81
+msgid "Please provide some data."
+msgstr "Si prega di fornire qualche dato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:89 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:136
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:243
+msgid "File Upload"
+msgstr "Invio file"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:89 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:136
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:243
+msgid "Validation"
+msgstr "Validazione"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:89 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:98
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:136 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:175
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:243
+msgid "Import"
+msgstr "Importa"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:93
+msgid "This import will create/update/delete rooms and shifts by given FRAB-export file. The needed file format is xcal."
+msgstr "Questa importazione crea/aggiorna/cancella le Stanze e i Turni dal file frab-export fornito. Il formato del file deve essere xcal."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:94 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:301
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:184
+msgid "Shifttype"
+msgstr "Shifttype"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:95
+msgid "Add minutes to start"
+msgstr "Aggiungi minuti all'inizio"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:96
+msgid "Add minutes to end"
+msgstr "Aggiungi minuti alla fine"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:97
+msgid "xcal-File (.xcal)"
+msgstr "xcal-File (.xcal)"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:107 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:181
+msgid "Missing import file."
+msgstr "Manca file di importazione."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:140
+msgid "Rooms to create"
+msgstr "Stanze da creare"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:144
+msgid "Rooms to delete"
+msgstr "Stanze da eliminare"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:148
+msgid "Shifts to create"
+msgstr "Turni da creare"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:150 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:159
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:168 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:238
+msgid "Day"
+msgstr "Giorno"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:151 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:160
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:169 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:306
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:88
+msgid "Start"
+msgstr "Inizio"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:152 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:161
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:170 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:307
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:96
+msgid "End"
+msgstr "Fine"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:153 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:162
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:171
+msgid "Shift type"
+msgstr "Tipo di Turno"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:154 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:163
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:172 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:302
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:185 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:84
+msgid "Title"
+msgstr "Titolo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:155 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:164
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:173 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:303
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:803
+msgid "Room"
+msgstr "Stanza"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:157
+msgid "Shifts to update"
+msgstr "Turni da aggiornare"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:166
+msgid "Shifts to delete"
+msgstr "Turni da eliminare"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_import.php:244
+msgid "It's done!"
+msgstr "Fatto!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_log.php:3
+msgid "Log"
+msgstr "Registro"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:8
+msgid "Edit news entry"
+msgstr "Modifica notizia"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:28
+msgid "Author"
+msgstr "Autore"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:29 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:157
+msgid "Subject"
+msgstr "Oggetto"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:30 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:79
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:105 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:158
+msgid "Message"
+msgstr "Messaggio"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:31 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:159
+msgid "Meeting"
+msgstr "Riunione"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:35 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:168
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:34
+msgid "Delete"
+msgstr "Cancella"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:49
+msgid "News entry updated."
+msgstr "Notizia aggiornata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_news.php:58
+msgid "News entry deleted."
+msgstr "Notizia cancellata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:3
+msgid "Answer questions"
+msgstr "Rispondi alle domande"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:13
+msgid "There are unanswered questions!"
+msgstr "Ci sono domande senza risposta!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:61
+msgid "Unanswered questions"
+msgstr "Domande senza risposta"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:63 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:70
+msgid "From"
+msgstr "Da"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:64 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:71
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:19 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:24
+msgid "Question"
+msgstr "Domanda"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:65 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:73
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:26
+msgid "Answer"
+msgstr "Risposta"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:68 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:22
+msgid "Answered questions"
+msgstr "Domande con risposta"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_questions.php:72 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:25
+msgid "Answered by"
+msgstr "Risposto da"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:4 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:816
+msgid "Rooms"
+msgstr "Stanze"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:62
+msgid "This name is already in use."
+msgstr "Questo nome è già in uso."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:89
+#, php-format
+msgid "Please enter needed angels for type %s."
+msgstr "Si prega di inserire gli angeli necessari per il tipo %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:117
+msgid "Room saved."
+msgstr "Stanza salvata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:137 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:182
+msgid "Public"
+msgstr "Pubblico"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:138
+msgid "Room number"
+msgstr "Numero Stanza"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:143
+msgid "Needed angels:"
+msgstr "Angeli necessari:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:158
+#, php-format
+msgid "Room %s deleted."
+msgstr "Stanza %s cancellata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:166
+#, php-format
+msgid "Do you want to delete room %s?"
+msgstr "Vuoi eliminare la stanza %s ?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_rooms.php:176
+msgid "add"
+msgstr "aggiungi"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:4
+msgid "Create shifts"
+msgstr "Crea Turni"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:65
+msgid "Please select a location."
+msgstr "Si prega di selezionare una posizione."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:72
+msgid "Please select a start time."
+msgstr "Si prega di selezionare un orario di inizio."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:79
+msgid "Please select an end time."
+msgstr "Si prega di selezionare un orario di fine."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:84
+msgid "The shifts end has to be after its start."
+msgstr "La fine del turno deve essere dopo il suo inizio."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:96
+msgid "Please enter a shift duration in minutes."
+msgstr "Indicare la durata del Turno in minuti."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:104
+msgid "Please split the shift-change hours by colons."
+msgstr "Si prega di dividere le ore di cambio turno con i due punti."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:109
+msgid "Please select a mode."
+msgstr "Si prega di selezionare una modalità."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:122
+#, php-format
+msgid "Please check the needed angels for team %s."
+msgstr "Si prega di verificare gli angeli necessari per squadra %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:127
+msgid "There are 0 angels needed. Please enter the amounts of needed angels."
+msgstr "Ci sono 0 angeli necessari. Si prega di inserire la quantità di angeli necessari."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:131
+msgid "Please select a mode for needed angels."
+msgstr "Si prega di selezionare una modalità per gli angeli necessari."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:135
+msgid "Please select needed angels."
+msgstr "Si prega di selezionare gli angeli necessari."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:253
+msgid "Time and location"
+msgstr "Ora e luogo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:254
+msgid "Type and title"
+msgstr "Tipo e titolo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:255 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:316
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:189 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:110
+msgid "Needed angels"
+msgstr "Angeli necessari"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:308
+msgid "Mode"
+msgstr "Modo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:309
+msgid "Create one shift"
+msgstr "Crea un turno"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:310
+msgid "Create multiple shifts"
+msgstr "Crea più turni"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:312
+msgid "Create multiple shifts with variable length"
+msgstr "Crea più turni con lunghezza variabile"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:313
+msgid "Shift change hours"
+msgstr "Ore di cambio turno"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:317
+msgid "Take needed angels from room settings"
+msgstr "Prendi gli angeli necessari dalle impostazione della Stanza"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_shifts.php:318
+msgid "The following angels are needed"
+msgstr "Sono necessari i seguenti angeli"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_user.php:4
+msgid "All Angels"
+msgstr "Tutti gli Angeli"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_user.php:21
+msgid "This user does not exist."
+msgstr "Questo utente non esiste."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_user.php:41 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:185
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:178
+msgid "Please send me an email if my shifts change"
+msgstr "Inviami una e-mail se i miei turni cambiano"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_user.php:60
+msgid "Force active"
+msgstr "Forza attiva"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_user.php:79
+msgid "Please visit the angeltypes page or the users profile to manage users angeltypes."
+msgstr "Si prega di visitare la pagina angeltypes o il profilo degli utenti per la gestione degli angeltypes degli utenti."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/admin_user.php:200
+msgid "Edit user"
+msgstr "Modifica utente"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_credits.php:3
+msgid "Credits"
+msgstr "Credits"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:4 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:314
+msgid "Login"
+msgstr "Login"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:8 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:240
+msgid "Register"
+msgstr "Registrati"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:12
+msgid "Logout"
+msgstr "Logout"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:52
+#, php-format
+msgid "Your nick &quot;%s&quot; already exists."
+msgstr "Il tuo nick &quot;%s&quot; esiste già."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:56
+#, php-format
+msgid "Your nick &quot;%s&quot; is too short (min. 2 characters)."
+msgstr "Il tuo nick &quot;%s&quot; è troppo corto (min. 2 caratteri)."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:77 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:50
+msgid "Please check your jabber account information."
+msgstr "Verifica le informazioni relative all'account Jabber."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:86
+msgid "Please select your shirt size."
+msgstr "Seleziona la taglia della t-shirt."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:97
+#, php-format
+msgid "Your password is too short (please use at least %s characters)."
+msgstr "La password è troppo corta (si prega di utilizzare almeno %s caratteri)."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:104 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:64
+msgid "Please enter your planned date of arrival."
+msgstr "Inserisci la data prevista di arrivo."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:166
+msgid "Angel registration successful!"
+msgstr "Registrazione Angelo avvenuta con successo!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:173
+msgid "By completing this form you're registering as a Chaos-Angel. This script will create you an account in the angel task sheduler."
+msgstr "Compilando questo modulo ci si sta registrando come Angelo. Questo script ti creerà un account nell'agenda dei compiti degli angeli."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:190 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:171
+msgid "Planned date of arrival"
+msgstr "Data prevista di arrivo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:193 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:181
+msgid "Shirt size"
+msgstr "Taglia della t-shirt"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:198 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:313
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:272
+msgid "Password"
+msgstr "Password"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:201 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:273
+msgid "Confirm password"
+msgstr "Conferma Password"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:204
+msgid "What do you want to do?"
+msgstr "Cosa vuoi fare?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:204
+msgid "Description of job types"
+msgstr "Descrizione dei tipi di lavoro"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:205
+msgid "Restricted angel types need will be confirmed later by an archangel. You can change your selection in the options section."
+msgstr "Le tipologie di Angelo riservate saranno confermate in seguito da un Arcangelo. È possibile modificare le voci selezionate nella sezione opzioni."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:213 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:176
+msgid "Mobile"
+msgstr "Cellulare"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:216 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:174
+msgid "Phone"
+msgstr "Telefono"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:222 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:170
+msgid "First name"
+msgstr "Nome"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:225 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:169
+msgid "Last name"
+msgstr "Cognome"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:230 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:173
+msgid "Age"
+msgstr "Età"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:233 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:180
+msgid "Hometown"
+msgstr "Città natale"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:236 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:167
+msgid "Entry required!"
+msgstr "Voce richiesta!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:276
+msgid "Please enter a password."
+msgstr "Per favore inserire una password."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:280
+msgid "No user was found with that Nickname. Please try again. If you are still having problems, ask an Dispatcher."
+msgstr "Nessun utente è stato trovato con questo nickname. Riprova. Se i problemi persistono, chiedere ad un Dispatcher."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:284
+msgid "Please enter a nickname."
+msgstr "Inserisci un nickname."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:297
+msgid "Please sign up, if you want to help us!"
+msgstr "Iscriversi, se si vuoi aiutarci!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:304
+msgid "Registration is disabled."
+msgstr "La registrazione è disabilitata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:316
+msgid "I forgot my password"
+msgstr "Ho dimenticato la mia password"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:318
+msgid "Please note: You have to activate cookies!"
+msgstr "Occhio! E' necessario attivare i cookie!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:324
+msgid "What can I do?"
+msgstr "Cosa posso fare?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/guest_login.php:325
+msgid "Please read about the jobs you can do to help us."
+msgstr "Leggi le informazioni sui lavori che puoi svolgere per aiutarci."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:4
+msgid "Messages"
+msgstr "Messaggi"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:25
+msgid "Select recipient..."
+msgstr "Seleziona un destinatario..."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:49 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:52
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:62 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:92
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_questions.php:16
+msgid "Unable to load user."
+msgstr "Impossibile caricare utente."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:64
+msgid "mark as read"
+msgstr "segna come già letto"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:66
+msgid "delete message"
+msgstr "elimina messaggio"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:72
+#, php-format
+msgid "Hello %s, here can you leave messages for other angels"
+msgstr "Ciao %s, qui puoi lasciare dei messaggi per gli altri angeli"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:75
+msgid "New"
+msgstr "Nuovo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:77
+msgid "Transmitted"
+msgstr "Inviato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:78
+msgid "Recipient"
+msgstr "Destinatario"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:90 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:104
+msgid "Incomplete call, missing Message ID."
+msgstr "Incomplete call, missing Message ID."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:97 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:111
+msgid "No Message found."
+msgstr "Nessun messaggio trovato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:118
+msgid "Transmitting was terminated with an Error."
+msgstr "C'è stato un errore nell'invio."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_messages.php:123
+msgid "Wrong action."
+msgstr "Azione sbagliata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:4 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:298
+msgid "My shifts"
+msgstr "I miei Turni"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:24
+msgid "Key changed."
+msgstr "Chiave cambiata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:27 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:232
+msgid "Reset API key"
+msgstr "Reset API key"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:28
+msgid "If you reset the key, the url to your iCal- and JSON-export and your atom feed changes! You have to update it in every application using one of these exports."
+msgstr "If you reset the key, the url to your iCal- and JSON-export and your atom feed changes! You have to update it in every application using one of these exports."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:29
+msgid "Continue"
+msgstr "Continua"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:61
+msgid "Please enter a freeload comment!"
+msgstr "Please enter a freeload comment!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:79
+msgid "Shift saved."
+msgstr "Turno salvato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:105
+msgid "Shift canceled."
+msgstr "Turno cancellato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_myshifts.php:107
+msgid "It's too late to sign yourself off the shift. If neccessary, ask the dispatcher to do so."
+msgstr "E' troppo tardi per tirarti fuori dal turno! Se necessario, chiedere al dispatcher di farlo."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:3
+msgid "News comments"
+msgstr "Commenti alla news"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:7
+msgid "News"
+msgstr "News"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:11
+msgid "Meetings"
+msgstr "Meetings"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:66
+msgid "Comments"
+msgstr "Commenti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:83 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:126
+msgid "Entry saved."
+msgstr "Voce salvata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:103
+msgid "New Comment:"
+msgstr "Nuovo commento:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:110
+msgid "Invalid request."
+msgstr "Richiesta non valida."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_news.php:154
+msgid "Create news:"
+msgstr "Crea notizie:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_questions.php:3 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:29
+msgid "Ask an archangel"
+msgstr "Chiedi ad un Arcangelo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_questions.php:28
+msgid "Unable to save question."
+msgstr "Impossibile salvare la domanda."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_questions.php:29
+msgid "You question was saved."
+msgstr "La tua domanda è stata salvata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_questions.php:33
+msgid "Please enter a question!"
+msgstr "Inserisci una domanda!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_questions.php:40
+msgid "Incomplete call, missing Question ID."
+msgstr "Incomplete call, missing Question ID."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_questions.php:48
+msgid "No question found."
+msgstr "Nessuna domanda trovata."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:4 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:229
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:72
+msgid "Please enter your planned date of departure."
+msgstr "Inserisci la data di partenza prevista."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:112
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:119
+msgid "-> not OK. Please try again."
+msgstr "-> Non OK. Riprova."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:127
+msgid "Failed setting password."
+msgstr "Impossibile impostare la password."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:140
+msgid "Theme changed."
+msgstr "Tema cambiato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:166
+msgid "Here you can change your user details."
+msgstr "Qui puoi modificare i dati utente."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:172
+msgid "Planned date of departure"
+msgstr "Data prevista di partenza"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:182
+msgid "Please visit the angeltypes page to manage your angeltypes."
+msgstr "Si prega di visitare la pagina angeltypes per gestire i tuoi angeltypes."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:188
+msgid "Here you can change your password."
+msgstr "Qui è possibile modificare la password."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:189
+msgid "Old password:"
+msgstr "Vecchia password:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:190
+msgid "New password:"
+msgstr "Nuova password:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:191
+msgid "Password confirmation:"
+msgstr "Conferma password:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:195
+msgid "Here you can choose your color settings:"
+msgstr "Qui è possibile scegliere le impostazioni del colore:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:196
+msgid "Color settings:"
+msgstr "Impostazioni di colore:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:200
+msgid "Here you can choose your language:"
+msgstr "Qui si può scegliere la lingua:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_settings.php:201
+msgid "Language:"
+msgstr "Lingua:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:43
+msgid "Shift entry deleted."
+msgstr "Turno cancellato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:45
+msgid "Entry not found."
+msgstr "Voce non trovata"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:110
+msgid "Please select a room."
+msgstr "Si prega di selezionare una stanza."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:117
+msgid "Please select a shifttype."
+msgstr "Seleziona un tipo di Turno."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:124
+msgid "Please enter a valid starting time for the shifts."
+msgstr "Inserisci un orario di inizio valido per i Turni."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:131
+msgid "Please enter a valid ending time for the shifts."
+msgstr "Inserisci un orario di fine valido per i Turni."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:136
+msgid "The ending time has to be after the starting time."
+msgstr "L'orario di fine deve essere dopo l'orario di inizio."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:144
+#, php-format
+msgid "Please check your input for needed angels of type %s."
+msgstr "Controlla il valore immesso per gli angeli necessari di tipo %s ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:166
+msgid "Shift updated."
+msgstr "Turno aggiornato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:182
+msgid "This page is much more comfortable with javascript."
+msgstr "Questa pagina è molto più comoda con javascript attivato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:186
+msgid "Room:"
+msgstr "Stanza:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:187
+msgid "Start:"
+msgstr "Inizio:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:188
+msgid "End:"
+msgstr "Fine:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:214
+msgid "Shift deleted."
+msgstr "Turno cancellato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:219
+#, php-format
+msgid "Do you want to delete the shift %s from %s to %s?"
+msgstr "Vuoi eliminare il Turno %s da %s a %s ?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:251
+msgid "You are not allowed to sign up for this shift. Maybe shift is full or already running."
+msgstr "Non puoi iscriverti a questo Turno. Forse il Turno è pieno o è già cominciato."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:298
+msgid "You are subscribed. Thank you!"
+msgstr "Sei iscritto. Grazie!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:307 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:206
+msgid "Freeloader"
+msgstr "Scroccone"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:337
+msgid "The administration has not configured any shifts yet."
+msgstr "L'Admin non ha ancora configurato i turni."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:344
+msgid "The administration has not configured any rooms yet."
+msgstr "L'Admin non ha ancora configurato le stanze."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:357
+msgid "occupied"
+msgstr "occupato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:361
+msgid "free"
+msgstr "libero"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:366
+msgid "The administration has not configured any angeltypes yet - or you are not subscribed to any angeltype."
+msgstr "L'Admin non ha ancora configurato alcun angeltypes - o non sei iscritto a nessun angeltype."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:618 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:755
+#, php-format
+msgid "%d helper needed"
+msgid_plural "%d helpers needed"
+msgstr[0] "%d aiutante necessario"
+msgstr[1] "%d aiutanti necessari"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:638 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:22
+msgid "Sign up"
+msgstr "Registrati"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:641
+msgid "ended"
+msgstr "finito"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:649 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:782
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:24
+#, php-format
+msgid "Become %s"
+msgstr "Diventa %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:661 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:795
+msgid "Add more angels"
+msgstr "Aggiungi più angeli"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:803 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:239
+msgid "Time"
+msgstr "Ora"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:804
+msgid "Entries"
+msgstr "Entries"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:822
+msgid "Occupancy"
+msgstr "Occupanti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:823
+msgid "The tasks shown here are influenced by the preferences you defined in your settings!"
+msgstr "I compiti indicati qui sono influenzati dalle preferenze definite nelle impostazioni!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:823
+msgid "Description of the jobs."
+msgstr "Descrizione dei posti di lavoro."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:824
+msgid "Use new style if possible"
+msgstr "Utilizzare il nuovo stile, se possibile"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:826
+msgid "iCal export"
+msgstr "Esportazione iCal"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:826
+#, php-format
+msgid "Export of shown shifts. <a href=\"%s\">iCal format</a> or <a href=\"%s\">JSON format</a> available (please keep secret, otherwise <a href=\"%s\">reset the api key</a>)."
+msgstr "Export of shown shifts. <a href=\"%s\">iCal format</a> or <a href=\"%s\">JSON format</a> available (please keep secret, otherwise <a href=\"%s\">reset the api key</a>)."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:827
+msgid "Filter"
+msgstr "Filtro"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:861 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:22
+msgid "All"
+msgstr "Tutti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/pages/user_shifts.php:862
+msgid "None"
+msgstr "Nessuno"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:28 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:192
+msgid "Unconfirmed"
+msgstr "Non confermato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:30 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:34
+msgid "Coordinator"
+msgstr "Coordinatore"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:32 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:36
+msgid "Member"
+msgstr "Membro"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:45
+#, php-format
+msgid "Do you want to delete angeltype %s?"
+msgstr "Vuoi eliminare angeltype %s ?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:47 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:14
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:7
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:18
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:29
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:40
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:51
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:80
+msgid "cancel"
+msgstr "cancella"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:61 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:217
+msgid "Restricted"
+msgstr "Riservato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:61 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:62
+msgid "Yes"
+msgstr "Sì"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:61 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:62
+msgid "No"
+msgstr "No"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:62
+msgid "Requires driver license"
+msgstr "Richiede patente di guida"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:63
+msgid "Restricted angel types can only be used by an angel if enabled by an archangel (double opt-in)."
+msgstr "I tipi di angelo riservati possono essere assegnati solo da un angelo, se abilitato da un arcangelo (doppio opt-in)."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:64 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:100
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:114 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:35
+msgid "Description"
+msgstr "Descrizione"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:65 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:36
+msgid "Please use markdown for the description."
+msgstr "Utilizza markdown per la descrizione."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:77
+msgid "my driving license"
+msgstr "la mia patente di guida"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:83
+msgid "This angeltype requires a driver license. Please enter your driver license information!"
+msgstr "Questo angeltype richiede una patente di guida. Inserisci i dati patente di guida!"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:86
+#, php-format
+msgid "You are unconfirmed for this angeltype. Please go to the introduction for %s to get confirmed."
+msgstr "Non sei confermato per questo angeltype. Si prega di andare alla introduzione per %s per ottenere conferma."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:123
+msgid "confirm"
+msgstr "conferma"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:124
+msgid "deny"
+msgstr "rifiuta"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:139
+msgid "remove"
+msgstr "rimuovi"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:155
+msgid "Driver"
+msgstr "Autista"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:156
+msgid "Has car"
+msgstr "Ha un'auto"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:157
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:27
+msgid "Car"
+msgstr "Auto"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:158
+msgid "3,5t Transporter"
+msgstr "3,5t Transporter"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:159
+msgid "7,5t Truck"
+msgstr "7,5t Truck"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:160
+msgid "12,5t Truck"
+msgstr "12,5t Truck"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:161
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:31
+msgid "Forklift"
+msgstr "Muletto"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:166
+msgid "Coordinators"
+msgstr "Coordinatori"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:184
+msgid "Members"
+msgstr "Membri"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:187
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:70
+msgid "Add"
+msgstr "Aggiungi"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:194
+msgid "confirm all"
+msgstr "conferma tutto"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:195
+msgid "deny all"
+msgstr "negare tutto"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:212
+msgid "New angeltype"
+msgstr "Nuovo angeltype"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:218
+msgid "Membership"
+msgstr "Iscrizione"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:232
+msgid "FAQ"
+msgstr "FAQ"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:234
+msgid "Here is the list of teams and their tasks. If you have questions, read the FAQ."
+msgstr "Ecco l'elenco delle squadre e dei loro compiti. Se avete domande, leggere le FAQ."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/AngelTypes_view.php:251
+msgid "This angeltype is restricted by double-opt-in by a team coordinator. Please show up at the according introduction meetings."
+msgstr "Questo angeltype è riservato con un doppio opt-in da un coordinatore del team. Si prega di presentarsi ai rispettivi incontri di introduzione."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:17
+msgid "Open questions"
+msgstr "Domande aperte"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Questions_view.php:31
+msgid "Your Question:"
+msgstr "La tua domanda:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:17 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:165
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:167
+msgid "Freeloaded"
+msgstr "Freeloaded"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:18
+msgid "Freeload comment (Only for shift coordination):"
+msgstr "Freeload commento (solo per il coordinamento turno):"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:23
+msgid "Edit shift entry"
+msgstr "Modifica voce Turno"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:26
+msgid "Angel:"
+msgstr "Angelo:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:27
+msgid "Date, Duration:"
+msgstr "Data, Durata:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:28
+msgid "Location:"
+msgstr "Luogo:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:29
+msgid "Title:"
+msgstr "Titolo:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:30
+msgid "Type:"
+msgstr "Tipo:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftEntry_view.php:31
+msgid "Comment (for your eyes only):"
+msgstr "Commento (solo per i vostri occhi):"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:6
+#, php-format
+msgid "created at %s by %s"
+msgstr "creato il %s da %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:8
+#, php-format
+msgid "edited at %s by %s"
+msgstr "modificata il %s da %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:74
+msgid "This shift collides with one of your shifts."
+msgstr "Questo turno si scontra con uno dei tuoi turni."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:75
+msgid "You are signed up for this shift."
+msgstr "Hai effettuato l'accesso per questo turno."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/Shifts_view.php:104 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:240
+msgid "Location"
+msgstr "Luogo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:12
+#, php-format
+msgid "Do you want to delete shifttype %s?"
+msgstr "Vuoi eliminare shifttype %s ?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:27
+msgid "Edit shifttype"
+msgstr "Modifica shifttype"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:27
+msgid "Create shifttype"
+msgstr "Crea shifttype"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:46
+#, php-format
+msgid "for team %s"
+msgstr "per la squadra %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/ShiftTypes_view.php:71
+msgid "New shifttype"
+msgstr "Nuovo shifttype"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:7
+msgid "Please select..."
+msgstr "Per favore scegli..."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:31
+msgid "Do you really want to delete the user including all his shifts and every other piece of his data?"
+msgstr "Vuoi davvero eliminare l'utente, tra cui tutti i suoi turni e ogni altro suo dato?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:33
+msgid "Your password"
+msgstr "La tua password"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:48
+#, php-format
+msgid "Angel should receive at least  %d vouchers."
+msgstr "Angelo dovrebbe ricevere almeno %d vouchers."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:50
+msgid "Number of vouchers given out"
+msgstr "Numero di vouchers distribuiti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:64
+msgid "m/d/Y h:i a"
+msgstr "d/m/Y h:i a"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:83
+msgid "New user"
+msgstr "Nuovo utente"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:87
+msgid "Prename"
+msgstr ""
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:90 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:208
+msgid "Arrived"
+msgstr "Arrivato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:91
+msgid "Voucher"
+msgstr "Voucher"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:92
+msgid "Freeloads"
+msgstr "Scrocconi"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:93 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:210
+msgid "Active"
+msgstr "Attivo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:95 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:211
+msgid "T-Shirt"
+msgstr "T-Shirt"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:97
+msgid "Last login"
+msgstr "Ultimo login"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:113
+msgid "Free"
+msgstr "Libero"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:117 /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:119
+#, php-format
+msgid "Next shift %c"
+msgstr "Turno successivo %c"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:124
+#, php-format
+msgid "Shift starts %c"
+msgstr "Turno inizia %c"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:126
+#, php-format
+msgid "Shift ends %c"
+msgstr "Turno finisce %c"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:176
+msgid "sign off"
+msgstr "logout"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:187
+msgid "Sum:"
+msgstr "Somma:"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:205
+msgid "User state"
+msgstr "Stato utente"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:208
+#, php-format
+msgid "Arrived at %s"
+msgstr "Arrivato il %s"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:208
+#, php-format
+msgid "Not arrived (Planned: %s)"
+msgstr "Non è arrivato (Previsto: %s )"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:208
+msgid "Not arrived"
+msgstr "Non arrivato"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:209
+#, php-format
+msgid "Got %s voucher"
+msgid_plural "Got %s vouchers"
+msgstr[0] "Ottenuto %s voucher"
+msgstr[1] "Ottenuto %s voucher"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:209
+msgid "Got no vouchers"
+msgstr "Non ha ottenuto voucher"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:218
+msgid "Rights"
+msgstr "Diritti"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:226
+msgid "driving license"
+msgstr "patente di guida"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:228
+msgid "Edit vouchers"
+msgstr "Modifica voucher"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:230
+msgid "iCal Export"
+msgstr "Esportazione iCal"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:231
+msgid "JSON Export"
+msgstr "Esportazione JSON"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:241
+msgid "Name &amp; workmates"
+msgstr "Nome &amp; compagni di lavoro"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:242
+msgid "Comment"
+msgstr "Commento"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:243
+msgid "Action"
+msgstr "Azione"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:245
+msgid "Your night shifts between 2 and 8 am count twice."
+msgstr "I tuoi turni di notte tra le 2:00 e 8:00 contano doppio."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:246
+#, php-format
+msgid "Go to the <a href=\"%s\">shifts table</a> to sign yourself up for some shifts."
+msgstr "Vai alla <a href=\"%s\">tabella dei Turni</a> per assegnarti qualche turno."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:256
+msgid "We will send you an e-mail with a password recovery link. Please use the email address you used for registration."
+msgstr "Ti invieremo una e-mail con un link per il recupero della password. Utilizza l'indirizzo e-mail usato per la registrazione."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:259
+msgid "Recover"
+msgstr "Ripristina"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/User_view.php:270
+msgid "Please enter a new password."
+msgstr "Inserire una nuova password."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:5
+#, php-format
+msgid "Do you really want to add coordinator rights for %s to %s?"
+msgstr "Vuoi davvero aggiungere diritti coordinatore per %s a %s ?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:5
+#, php-format
+msgid "Do you really want to remove coordinator rights for %s from %s?"
+msgstr "Vuoi davvero eliminare diritti coordinatore per %s da %s?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:16
+#, php-format
+msgid "Do you really want to deny all users for %s?"
+msgstr "Vuoi davvero negare a tutti gli utenti per %s?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:27
+#, php-format
+msgid "Do you really want to confirm all users for %s?"
+msgstr "Vuoi davvero di confermare tutti gli utenti per %s?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:38
+#, php-format
+msgid "Do you really want to confirm %s for %s?"
+msgstr "Vuoi davvero confermare %s per %s?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:49
+#, php-format
+msgid "Do you really want to delete %s from %s?"
+msgstr "Vuoi davvero eliminare %s da %s?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:69
+msgid "User"
+msgstr "Utente"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:78
+#, php-format
+msgid "Do you really want to add %s to %s?"
+msgstr "Vuoi veramente aggiungere %s a %s?"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserAngelTypes_view.php:81
+msgid "save"
+msgstr "salva"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:17
+msgid "Back to profile"
+msgstr "Torna al profilo"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:21
+msgid "Privacy"
+msgstr "Privacy"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:21
+msgid "Your driving license information is only visible for coordinators and admins."
+msgstr "Le informazioni sulla patente di guida sono visibile solo ai coordinatori e agli amministratori."
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:22
+msgid "I am willing to operate cars for the PL"
+msgstr "Sono disposto a guidare le auto per la PL"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:25
+msgid "I have my own car with me and am willing to use it for the PL (You'll get reimbursed for fuel)"
+msgstr "Ho la mia auto con me e sono disposto ad usarla per il PL (Sarai rimborsati per il carburante)"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:26
+msgid "Driver license"
+msgstr "Patente di guida"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:28
+msgid "Transporter 3,5t"
+msgstr "Transporter 3,5t"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:29
+msgid "Truck 7,5t"
+msgstr "Camion 7,5t"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/includes/view/UserDriverLicenses_view.php:30
+msgid "Truck 12,5t"
+msgstr "Camion 12,5t"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/public/index.php:147
+msgid "No Access"
+msgstr "Nessun accesso"
+
+#: /Users/manuel/projects/EndSummerCamp/engelsystem/public/index.php:148
+msgid "You don't have permission to view this page. You probably have to sign in or register in order to gain access!"
+msgstr "Non si dispone dei permessi necessari per visualizzare questa pagina. Probabilmente devi accedere o registrarti per ottenere l'accesso!"
+
+#~ msgid " vouchers."
+#~ msgstr " Vouchers."
+
+#~ msgid "This is a automatically calculated MINIMUM value, you can of course give out more if appropriate!"
+#~ msgstr "Dies ist ein automatisch berechneter MINIMAL Wert, du kannst natürlich mehr ausgeben, wenn du es für angemessen hälst!"
+
+#~ msgid "You have been signed off from the shift."
+#~ msgstr "Du wurdest aus der Schicht ausgetragen."
+
+#~ msgid "planned departure"
+#~ msgstr "Geplante Abreise"
+
+#~ msgid "Tasks"
+#~ msgstr "Aufgaben"
+
+#~ msgid "User didnt got vouchers."
+#~ msgstr "Engel hat keine Voucher mehr."
+
+#~ msgid "Remove vouchers"
+#~ msgstr "Voucher entfernen"
+
+#~ msgid "This shift is running now or ended already. Please contact a dispatcher to join the shift."
+#~ msgstr "Diese Schicht läuft bereits oder ist bereits vorbei. Bitte einen Dispatcher Dich nachzutragen."
+
+#~ msgid "You already subscribed to shift in the same timeslot. Please contact a dispatcher to join the shift."
+#~ msgstr "Du hast bereits eine Schicht im gleichen Zeitrahmen. Bitte einen Dispatcher Dich nachzutragen."
+
+#~ msgid "Hello %s, here you can change your personal settings i.e. password, color settings etc."
+#~ msgstr "Hallo %s, hier kannst Du Deine persönlichen Einstellungen (z.B. Passwort, Aussehen, usw.) ändern."
+
+#~ msgid "Name/Description:"
+#~ msgstr "Name/Beschreibung:"
+
+#~ msgid "Timeslot"
+#~ msgstr "Zeiten"
+
+#~ msgid "The first wants to join %s."
+#~ msgstr "Der erste möchte ein %s werden."
+
+#~ msgid "Groups"
+#~ msgstr "Gruppen"
+
+#~ msgid "ICQ"
+#~ msgstr "ICQ"
+
+#~ msgid "You are not confirmed for this angel type."
+#~ msgstr "Du bist für diesen Engeltyp noch nicht freigeschaltet."
+
+#~ msgid "Exports"
+#~ msgstr "Exporte"
+
+#~ msgid "Current ends in %s min"
+#~ msgstr "Ende in %s min"
+
+#~ msgid "Add new angeltype"
+#~ msgstr "Neuer Engeltyp"
+
+#~ msgid "Language"
+#~ msgstr "Sprache"
+
+#~ msgid "You have %s new message."
+#~ msgid_plural "You have %s new messages."
+#~ msgstr[0] "Du hast %s neue Nachricht."
+#~ msgstr[1] "Du hast %s neue Nachrichten."
+
+#~ msgid "These are your shifts.<br/>Please try to appear <b>15 minutes</b> before your shift begins!<br/>You can remove yourself from a shift up to %d hours before it starts."
+#~ msgstr ""
+#~ "Hier sind Deine Schichten.<br />Bitte versuche <b>15 Minuten</b> vor Schichtbeginn zu erscheinen.<br />Du kannst Dich von Schichten %d Stunden vor deren Beginn noch "
+#~ "austragen."
+
+#~ msgid "Page:"
+#~ msgstr "Seite:"
+
+#~ msgid "Message:"
+#~ msgstr "Nachricht:"
+
+#~ msgid "Wakeup"
+#~ msgstr "Wecker"
+
+#~ msgid "Broken date!"
+#~ msgstr "Kaputter Termin!"
+
+#~ msgid "Incomplete call, missing wake-up ID."
+#~ msgstr "Unvollständiger Aufruf, fehlende Wecker ID."
+
+#~ msgid "Wake-up call deleted."
+#~ msgstr "Weckruf gelöscht."
+
+#~ msgid "No wake-up found."
+#~ msgstr "Keinen Wecker gefunden."
+
+#~ msgid "Hello %s, here you can register for a wake-up call. Simply say when and where the angel should come to wake you."
+#~ msgstr "Hallo %s, hier kannst Du Dich für einen Weckruf registrieren. Sag einfach, wann und wo der Engel erscheinen soll, um Dich zu wecken."
+
+#~ msgid "All ordered wake-up calls, next first."
+#~ msgstr "Alle sortierten Weckrufe, der nächste als erstes."
+
+#~ msgid "Place"
+#~ msgstr "Platz"
+
+#~ msgid "Notes"
+#~ msgstr "Notizen"
+
+#~ msgid "Schedule a new wake-up here:"
+#~ msgstr "Plane einen neuen Wecker hier:"
+
+#~ msgid "User %s confirmed as %s."
+#~ msgstr "Benutzer %s als %s bestätigt."
+
+#~ msgid "Resistance is futile! Your biological and physical parameters will be added to our collectiv! Assimilating angel:"
+#~ msgstr "Widerstand ist zwecklos! Deine biologischen und physischen Parameter werden zu unserem Kollektiv hinzugefügt! Assimiliere Engel:"
+
+#~ msgid "Confirmed all."
+#~ msgstr "Alle bestätigt."
+
+#~ msgid "asdf"
+#~ msgstr "fdsa"
