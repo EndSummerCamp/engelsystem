@@ -52,7 +52,7 @@ function ShiftType_view($shifttype, $angeltype) {
           button(page_link_to('shifttypes') . '&action=edit&shifttype_id=' . $shifttype['id'], _('edit'), 'edit'),
           button(page_link_to('shifttypes') . '&action=delete&shifttype_id=' . $shifttype['id'], _('delete'), 'delete') 
       ]),
-      $parsedown->parse($shifttype['description']) 
+      $parsedown->text($shifttype['description'])
   ]);
 }
 
@@ -72,9 +72,7 @@ function ShiftTypes_list_view($shifttypes) {
       ]),
       table([
           'name' => _('Name'),
-          'actions' => '' 
-      ], $shifttypes) 
+          'actions' => ''
+      ], $shifttypes)
   ]);
 }
-
-?>

@@ -49,7 +49,8 @@ function display_news($news) {
   $html .= '<div class="panel-heading">';
   $html .= '<h3 class="panel-title">' . ($news['Treffen'] == 1 ? '[Meeting] ' : '') . ReplaceSmilies($news['Betreff']) . '</h3>';
   $html .= '</div>';
-  $html .= '<div class="panel-body">' . ReplaceSmilies(nl2br($news['Text'])) . '</div>';
+  $parsedown = new Parsedown();
+  $html .= '<div class="panel-body">' . $parsedown->text(ReplaceSmilies(nl2br($news['Text']))) . '</div>';  
 
   $html .= '<div class="panel-footer text-muted">';
   if (in_array("admin_news", $privileges))

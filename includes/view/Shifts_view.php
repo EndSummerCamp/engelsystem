@@ -112,7 +112,7 @@ function Shift_view($shift, $shifttype, $room, $shift_admin, $angeltypes_source,
           ]),
           div('col-sm-6', [
               '<h2>' . _('Description') . '</h2>',
-              $parsedown->parse($shifttype['description']) 
+              $parsedown->text($shifttype['description']) 
           ]) 
       ]),
       $shift_admin ? Shift_editor_info_render($shift) : '' 
