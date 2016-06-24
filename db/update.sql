@@ -13,3 +13,5 @@ ALTER TABLE `UserDriverLicenses`
   ADD CONSTRAINT `userdriverlicenses_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `User` (`UID`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 ALTER TABLE `AngelTypes` ADD `requires_driver_license` BOOLEAN NOT NULL;
+
+ALTER TABLE `User` ADD UNIQUE (email) ;
