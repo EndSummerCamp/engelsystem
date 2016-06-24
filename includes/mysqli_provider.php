@@ -120,7 +120,7 @@ function sql_select_db($db_name) {
  * MySQL SELECT query
  *
  * @param string $query
- * @return Result array or false on error
+ * @return array Result array or false on error
  */
 function sql_select($query) {
   global $sql_connection;
@@ -199,7 +199,7 @@ function sql_select_single_col($query) {
 }
 
 function sql_select_single_cell($query) {
-  return array_shift(array_shift(sql_select($query)));
+  $result = sql_select($query);
+  $shift_result = array_shift($result);
+  return array_shift($shift_result);
 }
-
-?>

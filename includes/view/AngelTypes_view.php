@@ -100,7 +100,7 @@ function AngelType_view($angeltype, $members, $user_angeltype, $admin_user_angel
   $page[] = '<h3>' . _("Description") . '</h3>';
   $parsedown = new Parsedown();
   if ($angeltype['description'] != "")
-    $page[] = '<div class="well">' . $parsedown->parse($angeltype['description']) . '</div>';
+    $page[] = '<div class="well">' . $parsedown->text($angeltype['description']) . '</div>';
   
   $coordinators = array();
   $members_confirmed = array();
@@ -250,7 +250,7 @@ function AngelTypes_about_view($angeltypes, $user_logged_in) {
     if ($angeltype['restricted'])
       $content[] = info(_("This angeltype is restricted by double-opt-in by a team coordinator. Please show up at the according introduction meetings."), true);
     if ($angeltype['description'] != "")
-      $content[] = '<div class="well">' . $parsedown->parse($angeltype['description']) . '</div>';
+      $content[] = '<div class="well">' . $parsedown->text($angeltype['description']) . '</div>';
     $content[] = '<hr />';
   }
   

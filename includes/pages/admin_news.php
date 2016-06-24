@@ -42,7 +42,6 @@ function admin_news() {
               `Datum`='" . sql_escape(time()) . "', 
               `Betreff`='" . sql_escape($_POST["eBetreff"]) . "', 
               `Text`='" . sql_escape($_POST["eText"]) . "', 
-              `UID`='" . sql_escape($user['UID']) . "', 
               `Treffen`='" . sql_escape($_POST["eTreffen"]) . "' 
               WHERE `ID`='" . sql_escape($id) . "'");
           engelsystem_log("News updated: " . $_POST["eBetreff"]);
@@ -64,4 +63,3 @@ function admin_news() {
   }
   return $html . '</div>';
 }
-?>
