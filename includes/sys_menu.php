@@ -71,11 +71,11 @@ function header_toolbar() {
       $glyphicon = 'warning-sign';
     }
     
-    if ($user['DECT'] == "") {
+    /*if ($user['DECT'] == "") {
       $hints[] = error(_("You need to specify a DECT phone number in your settings! If you don't have a DECT phone, just enter \"-\"."), true);
       $hint_class = 'danger';
       $glyphicon = 'warning-sign';
-    }
+    }*/
   }
   if (count($hints) > 0)
     $toolbar_items[] = toolbar_popover($glyphicon . ' text-' . $hint_class, '', $hints, 'bg-' . $hint_class);
