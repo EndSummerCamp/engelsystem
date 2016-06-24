@@ -51,6 +51,10 @@ function guest_register() {
         $ok = false;
         $msg .= error(sprintf(_("Your nick &quot;%s&quot; already exists."), $nick), true);
       }
+      if (sql_num_query("SELECT * FROM `User` WHERE `email`='" . sql_escape($mail) . "' LIMIT 1") > 0) {
+        $ok = false;
+        $msg .= error(sprintf(_("Your E-mail &quot;%s&quot; already exists."), $mail), true);
+      }
     } else {
       $ok = false;
       $msg .= error(sprintf(_("Your nick &quot;%s&quot; is too short (min. 2 characters)."), User_validate_Nick($_REQUEST['nick'])), true);
