@@ -419,8 +419,13 @@ function view_user_shifts() {
       $time = date('Y-m-d', time() + ($key == 'end' ? 24 * 60 * 60 : 0));
       $_SESSION['user_shifts'][$key . '_day'] = in_array($time, $days) ? $time : ($key == 'end' ? max($days) : min($days));
     }
-    if (! isset($_SESSION['user_shifts'][$key . '_time']))
-      $_SESSION['user_shifts'][$key . '_time'] = date('H:i');
+    if (! isset($_SESSION['user_shifts'][$key . '_time'])) {
+      if ($key === 'start') {
+        $_SESSION['user_shifts'][$key . '_time'] = '00:00';
+      } else {
+        $_SESSION['user_shifts'][$key . '_time'] = '23:59';
+      }
+    }
   }
   if ($_SESSION['user_shifts']['start_day'] > $_SESSION['user_shifts']['end_day']) {
     $_SESSION['user_shifts']['end_day'] = $_SESSION['user_shifts']['start_day'];
