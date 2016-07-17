@@ -7,21 +7,23 @@ function shifts_title() {
 function user_shifts() {
   global $user, $privileges, $max_freeloadable_shifts;
 
-  if (User_is_freeloader($user))
+  if (User_is_freeloader($user)) {
     redirect(page_link_to('user_myshifts'));
+  }
 
-    // Locations laden
+  // Locations laden
   $rooms = sql_select("SELECT * FROM `Room` WHERE `show`='Y' ORDER BY `Name`");
   $room_array = array();
-  foreach ($rooms as $room)
+  foreach ($rooms as $room) {
     $room_array[$room['RID']] = $room['Name'];
-
+  }
     // Löschen einzelner Schicht-Einträge (Also Belegung einer Schicht von Engeln) durch Admins
   if (isset($_REQUEST['entry_id']) && in_array('user_shifts_admin', $privileges)) {
-    if (isset($_REQUEST['entry_id']) && test_request_int('entry_id'))
+    if (isset($_REQUEST['entry_id']) && test_request_int('entry_id')) {
       $entry_id = $_REQUEST['entry_id'];
-    else
+    } else {
       redirect(page_link_to('user_shifts'));
+    }
 
     $shift_entry_source = sql_select("
         SELECT `User`.`Nick`, `ShiftEntry`.`Comment`, `ShiftEntry`.`UID`, `ShiftTypes`.`name`, `Shifts`.*, `Room`.`Name`, `AngelTypes`.`name` as `angel_type`
@@ -41,8 +43,10 @@ function user_shifts() {
 
       engelsystem_log("Deleted " . User_Nick_render($shift_entry_source) . "'s shift: " . $shift_entry_source['name'] . " at " . $shift_entry_source['Name'] . " from " . date("Y-m-d H:i", $shift_entry_source['start']) . " to " . date("Y-m-d H:i", $shift_entry_source['end']) . " as " . $shift_entry_source['angel_type']);
       success(_("Shift entry deleted."));
-    } else
+    } else {
       error(_("Entry not found."));
+    }
+
     redirect(page_link_to('user_shifts'));
   }   // Schicht bearbeiten
   elseif (isset($_REQUEST['edit_shift']) && in_array('admin_shifts', $privileges)) {
@@ -418,16 +422,19 @@ function view_user_shifts() {
     if (! isset($_SESSION['user_shifts'][$key . '_time']))
       $_SESSION['user_shifts'][$key . '_time'] = date('H:i');
   }
-  if ($_SESSION['user_shifts']['start_day'] > $_SESSION['user_shifts']['end_day'])
+  if ($_SESSION['user_shifts']['start_day'] > $_SESSION['user_shifts']['end_day']) {
     $_SESSION['user_shifts']['end_day'] = $_SESSION['user_shifts']['start_day'];
-  if ($_SESSION['user_shifts']['start_day'] == $_SESSION['user_shifts']['end_day'] && $_SESSION['user_shifts']['start_time'] >= $_SESSION['user_shifts']['end_time'])
+  }
+  if ($_SESSION['user_shifts']['start_day'] == $_SESSION['user_shifts']['end_day'] && $_SESSION['user_shifts']['start_time'] >= $_SESSION['user_shifts']['end_time']) {
     $_SESSION['user_shifts']['end_time'] = '23:59';
+  }
 
   if (isset($_SESSION['user_shifts']['start_day'])) {
     $starttime = DateTime::createFromFormat("Y-m-d H:i", $_SESSION['user_shifts']['start_day'] . $_SESSION['user_shifts']['start_time']);
     $starttime = $starttime->getTimestamp();
-  } else
+  } else {
     $starttime = now();
+  }
 
   if (isset($_SESSION['user_shifts']['end_day'])) {
     $endtime = DateTime::createFromFormat("Y-m-d H:i", $_SESSION['user_shifts']['end_day'] . $_SESSION['user_shifts']['end_time']);
