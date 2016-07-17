@@ -46,7 +46,13 @@ function admin_news() {
               WHERE `ID`='" . sql_escape($id) . "'");
           engelsystem_log("News updated: " . $_POST["eBetreff"]);
           success(_("News entry updated."));
-          redirect(page_link_to("news"));
+
+          if (sql_escape($_POST["eTreffen"]) === '1') {
+              redirect(page_link_to("user_meetings"));
+          } else {
+              redirect(page_link_to("news"));
+          }
+
           break;
         
         case 'delete':
